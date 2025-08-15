@@ -8,20 +8,23 @@
         <style>
             *{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
             h1{
-                background:#F28705;
+                background:#8C3F23;
                 text-align: center;
                 color: #26170E;
                 margin: 0;
-                padding: 40px;
+                padding: 25px;
                 text-transform: uppercase;
                 font-size: 400%;
                 letter: spacing 20px ;
                 border-radius: 5px;
+                  border-style: ridge;
+  border-width: 7px;
+  border-color: rgb(67, 32, 19);
             }
             h2{
-             color: #A63005; 
+             color: #000000; 
              text-transform: uppercase; 
-             background-color: #BD8454; 
+             background-color: #8C3F23; 
              justify-content: center;
              display: flex;
              border-radius: 5px;
@@ -31,10 +34,69 @@
                 display: flex;
                 justify-content: center;
                 border-radius: 5px;
+                background: #b16f29;
             }
             body{
-                background: #722009;
+                background: #ffffff;
+                width: 900px;
+                padding: 10px;
             }
+            th{
+                background: #b1734d;
+                text-align: left;
+                
+
+            }
+            td,th{
+                border:3px solid ;
+                padding: 9px;
+
+            }
+            table{
+                border-collapse: collapse;
+            }
+            
+            iframe{
+                width: 90%;
+                right: 350px;
+                border: solid #26170E;
+                padding: 5px;
+                border-radius: 6px;
+            }
+            img{
+                width: 800px;
+                right: 50px;
+                border: solid #26170E;
+                padding: 7px;
+                border-radius: 5px;
+            }
+        /* CSS menu */
+        nav ul{
+            display: flex;
+            list-style-type: none;
+            gap: 5px;
+            padding: 0;
+        }
+        nav li{
+            background:#92624c ;
+            padding: 8px;
+            border-radius: 7px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: #ffffff;
+
+        }
+        nav>ul>li:hover{
+            background:#ff0000c7 ;
+        }
+         #jorge{
+            background: #6c3b1d;
+            color: #ffffff;
+            border-radius: 5px;
+            
+         }
+            
         </style>
     </head>
 
@@ -52,7 +114,7 @@
             </ul>
 
         </nav>
-        <table border="1">
+        <table>
             <tr>
                 <th>Tempo</th>
                 <th>Dificuldade</th>
@@ -64,7 +126,7 @@
 
         </table>
         <br>
-        <img src="download (1).jpg" width="300" eight="250">
+        <img src="download (1).jpg" alt=" Pudim">
         <h2><i>Ingredientes</i></h2>
         <ul>
             <li>6 colheres de sopa de açúcar</li>
@@ -90,12 +152,12 @@
                 seguida.</li>
         </ul>
         <br>
-        <iframe width="400" height="250" src="https://www.youtube.com/embed/olw3gMc4YlU?si=S6_yoB43LSNyymEY"
+        <iframe src="https://www.youtube.com/embed/olw3gMc4YlU?si=S6_yoB43LSNyymEY"
             title="YouTube video player" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         <br>
-        <a href="https://receitas.globo.com/receitas-da-tv/mais-voce/pudim-de-leite-condensado-4d514bb052e0b252bc00e85a.ghtml"
+        <a id="jorge" href="https://receitas.globo.com/receitas-da-tv/mais-voce/pudim-de-leite-condensado-4d514bb052e0b252bc00e85a.ghtml"
             target="_blank">Receita roiginaal</a>
 
     </body>
