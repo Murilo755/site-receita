@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site-receita</title>
+    <style>
+        * {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #D9D6D2;
+            width: 850px;
+            text-align: center;
+            margin: 0;
+            padding: 7px;
+        }
+
+        html {
+            display: flex;
+            justify-content: center;
+            background-color: #463a3a;
+        }
+
+        #receitas div {
+            background: #54453a;
+            color: #8d5050;
+            text-transform: uppercase;
+            text-align: center;
+            font-weight: bold;
+            
+        }
+
+        #receitas {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+
+        }
+
+        #receitas img {
+            width: 100%;
+            height: 170px;
+        }
+        #receitas a{
+            color: #fff;
+        }
+        h1{
+            background: rgb(134, 95, 95);
+            margin: 40px;
+            text-shadow: 2px 2px 5px  black;
+            border-radius: 10px;
+
+        }
+        h3{
+            font-size: 40px;
+            background: #865c5c;
+            margin: 40px;
+            border-radius: 10px;
+        }
+        
+        
+    </style>
+</head>
+
+<body>
+    <h1>Sites receitas</h1>
+    <h3>conheça nossas delicias!</h3>
+
+    <div id="receitas">
+        <div>
+            <a href="Chocolate.html">
+                <img src="Bolo foda.jpg" alt="Bolo de Chocolate">
+                <p>
+                    Bolo de Chocolate
+                </p>
+            </a>
+
+        </div>
+        <div>
+            <a href="pudim.html">
+                <img src="desktop-pudim-de-leite-1.png" alt="pudim">
+                <p>
+                    Pudim
+                </p>
+            </a>
+        </div>
+        <div>
+            <a href="pão-com-ovo.html">
+                <img src="images.jpg" alt="Pão com ovo">
+                <p>
+                    Pão com ovo
+                </p>
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
